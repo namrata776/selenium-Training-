@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testingDemo.CrossBrowser">
+      <class name="Testcase.LoginTest">
         <methods>
-          <include name="setup"/>
           <include name="teardown"/>
-          <include name="EnterEmail"/>
-          <include name="click_On_signup_button"/>
-          <include name="FullName"/>
+          <include name="testexecution"/>
         </methods>
-      </class> <!-- testingDemo.CrossBrowser -->
+      </class> <!-- Testcase.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

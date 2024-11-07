@@ -9,11 +9,11 @@ public class LoginPage {
 	
 	WebDriver driver;
 	
-	@FindBy(name="Username")
+	@FindBy(name="username")
 	private WebElement usertextbox;
 	@FindBy(name="password")
 	private WebElement passfield;
-	@FindBy(xpath="//button[.='Login']")
+	@FindBy(xpath="//button[.=' Login ']")
 	private WebElement loginbutton;
 	
 	public LoginPage(WebDriver driver)
